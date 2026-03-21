@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services — Tax Finnacle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cur-dot" id="curDot"></div>
+  <div class="cur-ring" id="curRing"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-wrap">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-mark">T</div>
+        <div><div class="logo-name">Tax Finnacle</div><div class="logo-tag">Financial Experts</div></div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="contact.html" class="nav-cta">Free Consultation →</a>
+      </div>
+      <button class="ham" id="ham" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mob-menu" id="mobMenu">
+      <a href="index.html" class="mob-link">Home</a>
+      <a href="services.html" class="mob-link active">Services</a>
+      <a href="contact.html" class="mob-link">Contact</a>
+      <a href="contact.html" class="nav-cta mob-cta">Free Consultation →</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="orb orb1"></div>
+    <div class="orb orb3" style="right:5%;top:30%"></div>
+    <div class="hero-grid-bg" style="opacity:.5"></div>
+    <div class="container page-hero-inner">
+      <div class="badge ai0"><i class="badge-pulse"></i> Complete Tax & Compliance Solutions</div>
+      <h1 class="h1 ai1">Our <span class="g-text">Services</span></h1>
+      <p class="hero-sub ai2" style="max-width:580px;margin:0 auto">From ITR filing to company incorporation — we handle every aspect of your tax and financial compliance with expert precision.</p>
+    </div>
+  </section>
+
+  <!-- SERVICE 1: ITR FILING -->
+  <section class="section svc-section" style="background:var(--bg)">
+    <div class="container svc-layout">
+      <div class="svc-copy rev">
+        <div class="svc-num">01</div>
+        <div class="eyebrow">Income Tax</div>
+        <h2 class="h2">ITR <span class="g-text">Filing</span></h2>
+        <p class="body-p">We file accurate Income Tax Returns for salaried employees, business owners, freelancers, and NRIs. Our experts ensure maximum deductions are claimed legally to minimise your tax outgo.</p>
+        <ul class="feat-list">
+          <li>ITR-1, ITR-2, ITR-3, ITR-4 &amp; ITR-5 filing</li>
+          <li>Maximum deductions under 80C, 80D, HRA, LTA</li>
+          <li>Capital gains &amp; property income reporting</li>
+          <li>Revised return &amp; belated return filing</li>
+          <li>Refund tracking &amp; status updates</li>
+          <li>NRI tax filing &amp; DTAA benefits</li>
+        </ul>
+        <a href="contact.html" class="btn-primary">File My ITR →</a>
+      </div>
+      <div class="rev" style="--d:.2s">
+        <div class="svc-img-wrap">
+          <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=700&q=80" alt="ITR Filing" loading="lazy">
+          <div class="svc-img-overlay"></div>
+          <span class="svc-tag">Starting ₹499</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 2: GST -->
+  <section class="section svc-section" style="background:var(--bg2)">
+    <div class="container svc-layout svc-rev">
+      <div class="svc-copy rev">
+        <div class="svc-num">02</div>
+        <div class="eyebrow" style="--eyec:var(--orange)">GST Compliance</div>
+        <h2 class="h2">GST <span class="g-text-warm">Services</span></h2>
+        <p class="body-p">Complete GST lifecycle management — from registration to monthly returns, reconciliation, and handling GST notices. We ensure your business is always GST-compliant with zero late fees.</p>
+        <div class="auto-cards">
+          <div class="auto-card">
+            <span class="auto-ico">📝</span>
+            <div><b>GST Registration</b><small>New registration, amendments &amp; cancellations</small></div>
+          </div>
+          <div class="auto-card">
+            <span class="auto-ico">📅</span>
+            <div><b>GSTR-1 &amp; GSTR-3B Filing</b><small>Monthly &amp; quarterly return filing on time</small></div>
+          </div>
+          <div class="auto-card">
+            <span class="auto-ico">🔍</span>
+            <div><b>GST Reconciliation</b><small>GSTR-2B matching &amp; ITC claim verification</small></div>
+          </div>
+          <div class="auto-card">
+            <span class="auto-ico">⚠️</span>
+            <div><b>GST Notice Handling</b><small>Professional response to all GST notices</small></div>
+          </div>
+        </div>
+        <a href="contact.html" class="btn-primary" style="background:var(--grad-warm)">Get GST Help →</a>
+      </div>
+      <div class="rev" style="--d:.2s">
+        <div class="svc-img-wrap">
+          <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=700&q=80" alt="GST Services" loading="lazy">
+          <div class="svc-img-overlay"></div>
+          <span class="svc-tag">Monthly Plans Available</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 3: COMPANY REGISTRATION -->
+  <section class="section svc-section" style="background:var(--bg)">
+    <div class="container svc-layout">
+      <div class="svc-copy rev">
+        <div class="svc-num">03</div>
+        <div class="eyebrow" style="--eyec:var(--green)">Business Setup</div>
+        <h2 class="h2">Company <span class="g-text-neon">Registration</span></h2>
+        <p class="body-p">Start your business the right way. We handle complete company incorporation with all MCA filings, so you get your Certificate of Incorporation quickly and without hassle.</p>
+        <div class="seo-stats-row">
+          <div class="seo-stat"><b>7</b><small>Days Avg</small></div>
+          <div class="seo-stat"><b>100%</b><small>Online</small></div>
+          <div class="seo-stat"><b>₹6999</b><small>Starting</small></div>
+        </div>
+        <ul class="feat-list">
+          <li>Private Limited Company (Pvt. Ltd.)</li>
+          <li>Limited Liability Partnership (LLP)</li>
+          <li>One Person Company (OPC)</li>
+          <li>Sole Proprietorship &amp; Partnership Firm</li>
+          <li>MSME / Udyam Registration</li>
+          <li>Trademark Registration</li>
+        </ul>
+        <a href="contact.html" class="btn-primary" style="background:var(--grad-neon);color:#000">Register My Company →</a>
+      </div>
+      <div class="rev" style="--d:.2s">
+        <div class="svc-img-wrap">
+          <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700&q=80" alt="Company Registration" loading="lazy">
+          <div class="svc-img-overlay"></div>
+          <span class="svc-tag">End-to-End Support</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 4: TDS -->
+  <section class="section svc-section" style="background:var(--bg2)">
+    <div class="container svc-layout svc-rev">
+      <div class="svc-copy rev">
+        <div class="svc-num">04</div>
+        <div class="eyebrow" style="--eyec:var(--violet-l)">TDS Management</div>
+        <h2 class="h2">TDS <span class="g-text" style="background:linear-gradient(135deg,var(--violet-l),var(--pink));-webkit-background-clip:text;background-clip:text">Compliance</span></h2>
+        <p class="body-p">Avoid hefty penalties with our complete TDS compliance service. We handle TDS calculation, deduction, payment, and quarterly return filing for your business.</p>
+        <div class="design-types">
+          <div class="dtype"><span>💸</span><b>TDS Deduction</b><small>Correct calculation</small></div>
+          <div class="dtype"><span>🏦</span><b>TDS Payment</b><small>Challan 281 filing</small></div>
+          <div class="dtype"><span>📋</span><b>24Q / 26Q</b><small>Quarterly returns</small></div>
+        </div>
+        <a href="contact.html" class="btn-primary" style="background:linear-gradient(135deg,var(--violet),var(--pink))">Manage My TDS →</a>
+      </div>
+      <div class="rev" style="--d:.2s">
+        <div class="svc-img-wrap">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=700&q=80" alt="TDS Compliance" loading="lazy">
+          <div class="svc-img-overlay"></div>
+          <span class="svc-tag">No Penalty Guarantee</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 5: TAX PLANNING -->
+  <section class="section svc-section" style="background:var(--bg)">
+    <div class="container svc-layout">
+      <div class="svc-copy rev">
+        <div class="svc-num">05</div>
+        <div class="eyebrow">Financial Advisory</div>
+        <h2 class="h2">Tax <span class="g-text">Planning</span></h2>
+        <p class="body-p">Don't just file taxes — optimise them. Our expert advisors create personalised tax-saving strategies that maximise your in-hand income while keeping you fully compliant.</p>
+        <div class="ai-feats">
+          <div class="ai-feat"><div class="ai-feat-ico" style="background:rgba(0,229,255,0.1);color:var(--cyan)">📉</div><div><b>Tax Liability Minimisation</b><small>Legal strategies to reduce tax outgo</small></div></div>
+          <div class="ai-feat"><div class="ai-feat-ico" style="background:rgba(0,229,255,0.1);color:var(--cyan)">🏠</div><div><b>Investment Planning (80C/80D)</b><small>PPF, ELSS, NPS, health insurance advisory</small></div></div>
+          <div class="ai-feat"><div class="ai-feat-ico" style="background:rgba(0,229,255,0.1);color:var(--cyan)">📈</div><div><b>Capital Gains Optimisation</b><small>Property &amp; stock tax planning</small></div></div>
+          <div class="ai-feat"><div class="ai-feat-ico" style="background:rgba(0,229,255,0.1);color:var(--cyan)">🏢</div><div><b>Business Tax Structuring</b><small>Optimal regime selection &amp; structuring</small></div></div>
+        </div>
+        <a href="contact.html" class="btn-primary">Plan My Taxes →</a>
+      </div>
+      <div class="rev" style="--d:.2s">
+        <div class="svc-img-wrap">
+          <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=700&q=80" alt="Tax Planning" loading="lazy">
+          <div class="svc-img-overlay"></div>
+          <span class="svc-tag">Save More, Legally</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 6: ACCOUNTING -->
+  <section class="section svc-section" style="background:var(--bg2)">
+    <div class="container svc-layout svc-rev">
+      <div class="svc-copy rev">
+        <div class="svc-num">06</div>
+        <div class="eyebrow" style="--eyec:var(--pink)">Financial Records</div>
+        <h2 class="h2">Accounting &amp; <span class="g-text-warm">Bookkeeping</span></h2>
+        <p class="body-p">Clean books are the foundation of a healthy business. Our accounting team maintains accurate financial records, prepares statements, and gives you the clarity to make confident business decisions.</p>
+        <div class="auto-cards">
+          <div class="auto-card">
+            <span class="auto-ico">📔</span>
+            <div><b>Monthly Bookkeeping</b><small>Tally / Zoho Books / QuickBooks</small></div>
+          </div>
+          <div class="auto-card">
+            <span class="auto-ico">📊</span>
+            <div><b>Financial Statements</b><small>P&amp;L, balance sheet, cash flow</small></div>
+          </div>
+          <div class="auto-card">
+            <span class="auto-ico">📌</span>
+            <div><b>MIS Reports</b><small>Custom monthly management reports</small></div>
+          </div>
+        </div>
+        <a href="contact.html" class="btn-primary" style="background:var(--grad-warm)">Start Bookkeeping →</a>
+      </div>
+      <div class="rev" style="--d:.2s">
+        <div class="svc-img-wrap">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&q=80" alt="Accounting" loading="lazy">
+          <div class="svc-img-overlay"></div>
+          <span class="svc-tag">Clean Books Every Month</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="cta-grid-overlay"></div>
+    <div class="cta-orb1"></div>
+    <div class="cta-orb2"></div>
+    <div class="container cta-inner rev">
+      <div class="cta-badge"><div class="badge"><i class="badge-pulse"></i> Don't Wait for the Deadline</div></div>
+      <h2 class="h2">Get Expert Help <span class="g-text">Today</span></h2>
+      <p class="body-p">Book a free consultation and our CA team will call you within 24 hours.</p>
+      <a href="contact.html" class="btn-primary">Book Free Consultation ✦</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo"><div class="logo-mark">T</div><div><div class="logo-name">Tax Finnacle</div><div class="logo-tag">Financial Experts</div></div></div>
+        <p>Your trusted partner for ITR, GST, company registration, and all tax compliance needs across India.</p>
+      </div>
+      <div class="footer-col"><h5>Quick Links</h5><a href="index.html">Home</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h5>Services</h5><a href="services.html">ITR Filing</a><a href="services.html">GST Services</a><a href="services.html">Company Registration</a><a href="services.html">TDS &amp; Tax Planning</a></div>
+      <div class="footer-col">
+        <h5>Connect</h5>
+        <a href="https://wa.me/919999999999" target="_blank" rel="noopener" class="whatsapp-link">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Us
+        </a>
+        <a href="tel:+919999999999">+91 99999 99999</a>
+      </div>
+    </div>
+    <div class="footer-bar container">
+      <p>© 2025 Tax Finnacle. All rights reserved.</p>
+      <div class="footer-bar-links"><a href="#">Privacy Policy</a><a href="#">Terms</a></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

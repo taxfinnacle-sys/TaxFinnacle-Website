@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tax Finnacle — Expert Tax & Financial Services</title>
+  <meta name="description" content="Tax Finnacle — India's trusted partner for ITR filing, GST registration & filing, company registration, and all tax compliance services."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cur-dot" id="curDot"></div>
+  <div class="cur-ring" id="curRing"></div>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-wrap">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-mark">T</div>
+        <div>
+          <div class="logo-name">Tax Finnacle</div>
+          <div class="logo-tag">Financial Experts</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-cta">Free Consultation →</a>
+      </div>
+      <button class="ham" id="ham" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mob-menu" id="mobMenu">
+      <a href="index.html" class="mob-link active">Home</a>
+      <a href="services.html" class="mob-link">Services</a>
+      <a href="contact.html" class="mob-link">Contact</a>
+      <a href="contact.html" class="nav-cta mob-cta">Free Consultation →</a>
+    </div>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-grid-bg"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="badge hero-eyebrow ai0">
+          <i class="badge-pulse"></i> India's Trusted Tax & Compliance Partner
+        </div>
+        <h1 class="h1 hero-title">
+          <span class="ht-line">
+            <span class="ht-word">Your</span>
+            <span class="ht-word">Taxes.</span>
+          </span>
+          <span class="ht-line">
+            <span class="ht-word g-text">Simplified.</span>
+            <span class="ht-word g-text">Secured.</span>
+          </span>
+          <span class="ht-line">
+            <span class="ht-word">Filed</span>
+            <span class="ht-word">Right.</span>
+          </span>
+        </h1>
+        <p class="hero-sub ai2">
+          Tax Finnacle offers expert ITR filing, GST registration & returns, company incorporation, TDS compliance, and full-spectrum financial advisory — so you stay compliant and stress-free.
+        </p>
+        <div class="hero-btns ai3">
+          <a href="services.html" class="btn-primary">Explore Services <span>→</span></a>
+          <a href="contact.html" class="btn-outline">Book Free Consultation</a>
+        </div>
+        <div class="hero-stats ai4">
+          <div class="hstat"><b>500+</b><small>Returns Filed</small></div>
+          <div class="hstat-sep"></div>
+          <div class="hstat"><b>8+</b><small>Services</small></div>
+          <div class="hstat-sep"></div>
+          <div class="hstat"><b>100%</b><small>Compliance Rate</small></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marquee ticker -->
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <span class="ticker-item"><span class="ticker-dot"></span> ITR Filing</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> GST Registration</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> GST Returns</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Company Registration</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> TDS Filing</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Tax Planning</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Accounting Services</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> MSME Registration</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Tax Notices</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> ITR Filing</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> GST Registration</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> GST Returns</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Company Registration</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> TDS Filing</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Tax Planning</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Accounting Services</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> MSME Registration</span>
+        <span class="ticker-item"><span class="ticker-dot"></span> Tax Notices</span>
+      </div>
+    </div>
+
+    <div class="scroll-cue"><span>Scroll</span><div class="sc-line"></div></div>
+  </section>
+
+  <!-- ══════════ ABOUT ══════════ -->
+  <section class="section" style="background:var(--bg2)">
+    <div class="container about-layout">
+      <div class="about-visual rev">
+        <div class="about-img-container">
+          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=700&q=80" alt="Expert tax professionals" loading="lazy">
+          <div class="about-img-overlay"></div>
+        </div>
+        <div class="about-img-border"></div>
+        <div class="ab-badge ab-b1"><b>5★</b><small>Rated</small></div>
+        <div class="ab-badge ab-b2"><b>500+</b><small>Happy Clients</small></div>
+      </div>
+      <div class="about-text rev" style="--d:.15s">
+        <div class="eyebrow">Who We Are</div>
+        <h2 class="h2">Your <span class="g-text">Trusted</span> Financial Partner</h2>
+        <p class="body-p">Tax Finnacle is a professional tax consultancy firm helping individuals, freelancers, and businesses navigate India's complex tax landscape with ease. From ITR to GST, we handle it all — accurately and on time.</p>
+        <div class="quote-block">
+          <span class="qmark">"</span>
+          <p>Making tax compliance simple, affordable, and stress-free for every Indian.</p>
+        </div>
+        <div class="pills">
+          <span class="pill">⚡ Fast Filing</span>
+          <span class="pill">🔒 100% Secure</span>
+          <span class="pill">📋 Full Compliance</span>
+          <span class="pill">💰 Affordable Fees</span>
+          <span class="pill">👨‍💼 Expert CA Team</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SERVICES ══════════ -->
+  <section class="section" id="services" style="background:var(--bg)">
+    <div class="container">
+      <div class="sec-hd rev">
+        <div class="eyebrow">What We Do</div>
+        <h2 class="h2">Our <span class="g-text">Core Services</span></h2>
+        <p class="body-p">End-to-end tax and compliance services tailored for individuals, startups, and growing businesses.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="sc rev" style="--d:0s;--sc-color:var(--cyan);--sc-r:0;--sc-g:229;--sc-b:255">
+          <div class="sc-line"></div>
+          <div class="sc-ico" style="background:rgba(0,229,255,0.1)">📄</div>
+          <h3>ITR Filing</h3>
+          <p>Accurate and timely Income Tax Return filing for salaried, business, and freelance individuals across all ITR forms.</p>
+          <a href="services.html" class="sc-more">Learn more →</a>
+        </div>
+        <div class="sc rev" style="--d:.08s;--sc-color:var(--orange);--sc-r:255;--sc-g:107;--sc-b:53">
+          <div class="sc-line"></div>
+          <div class="sc-ico" style="background:rgba(255,107,53,0.12)">🧾</div>
+          <h3>GST Services</h3>
+          <p>GST registration, monthly/quarterly return filing (GSTR-1, GSTR-3B), reconciliation, and full GST compliance management.</p>
+          <a href="services.html" class="sc-more" style="color:var(--orange)">Learn more →</a>
+        </div>
+        <div class="sc rev" style="--d:.16s;--sc-color:var(--green);--sc-r:0;--sc-g:255;--sc-b:136">
+          <div class="sc-line"></div>
+          <div class="sc-ico" style="background:rgba(0,255,136,0.1)">🏢</div>
+          <h3>Company Registration</h3>
+          <p>Private Limited, LLP, OPC, Sole Proprietorship registration — complete incorporation support from start to certificate.</p>
+          <a href="services.html" class="sc-more" style="color:var(--green)">Learn more →</a>
+        </div>
+        <div class="sc rev" style="--d:.24s;--sc-color:var(--violet-l);--sc-r:168;--sc-g:85;--sc-b:247">
+          <div class="sc-line"></div>
+          <div class="sc-ico" style="background:rgba(168,85,247,0.12)">📊</div>
+          <h3>TDS Compliance</h3>
+          <p>TDS deduction, payment, and quarterly return filing (24Q, 26Q). Avoid penalties with our end-to-end TDS management.</p>
+          <a href="services.html" class="sc-more" style="color:var(--violet-l)">Learn more →</a>
+        </div>
+        <div class="sc sc-feat rev" style="--d:.32s">
+          <div class="sc-line" style="background:linear-gradient(90deg,var(--cyan),var(--violet-l))"></div>
+          <div class="sc-ico" style="background:rgba(0,229,255,0.1)">🧠</div>
+          <h3 style="color:var(--text)">Tax Planning</h3>
+          <p>Strategic tax planning to legally minimise your tax liability. Save more, invest smart, and plan for the future.</p>
+          <a href="services.html" class="sc-more">Learn more →</a>
+        </div>
+        <div class="sc rev" style="--d:.40s;--sc-color:var(--pink);--sc-r:244;--sc-g:63;--sc-b:142">
+          <div class="sc-line"></div>
+          <div class="sc-ico" style="background:rgba(244,63,142,0.1)">📑</div>
+          <h3>Accounting & Bookkeeping</h3>
+          <p>Accurate monthly bookkeeping, P&L statements, balance sheet preparation, and MIS reporting for businesses of all sizes.</p>
+          <a href="services.html" class="sc-more" style="color:var(--pink)">Learn more →</a>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:3rem" class="rev">
+        <a href="services.html" class="btn-primary">View All Services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ WHY CHOOSE US ══════════ -->
+  <section class="section" style="background:var(--bg2)">
+    <div class="container">
+      <div class="sec-hd rev">
+        <div class="eyebrow">The Process</div>
+        <h2 class="h2">How We <span class="g-text">Work</span></h2>
+      </div>
+      <div class="steps-row">
+        <div class="step-card rev" style="--d:0s">
+          <div class="step-n">01</div>
+          <h4>Share Documents</h4>
+          <p>Upload your documents securely via WhatsApp or email. We review and confirm everything needed.</p>
+        </div>
+        <div class="step-arrow rev" style="--d:.08s">→</div>
+        <div class="step-card rev" style="--d:.16s">
+          <div class="step-n">02</div>
+          <h4>Expert Review</h4>
+          <p>Our CA team reviews your financials, calculates liability, and prepares your returns with precision.</p>
+        </div>
+        <div class="step-arrow rev" style="--d:.24s">→</div>
+        <div class="step-card rev" style="--d:.32s">
+          <div class="step-n">03</div>
+          <h4>File & Confirm</h4>
+          <p>We file on the portal, share acknowledgement, and keep you fully updated on your compliance status.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ TESTIMONIALS ══════════ -->
+  <section class="section" style="background:var(--bg)">
+    <div class="container">
+      <div class="sec-hd rev">
+        <div class="eyebrow">Client Stories</div>
+        <h2 class="h2">What Clients <span class="g-text">Say</span></h2>
+        <p class="body-p">Trusted by hundreds of individuals and businesses across India.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="tcard rev" style="--d:0s">
+          <div class="tcard-stars">★★★★★</div>
+          <p class="tcard-text">"Tax Finnacle filed my ITR in just 2 hours after I sent the documents. Saved me ₹18,000 in tax legally through proper deductions I didn't even know about!"</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar">RV</div>
+            <div><b>Rahul Verma</b><small>Software Engineer, Bangalore</small></div>
+          </div>
+        </div>
+        <div class="tcard rev" style="--d:.1s">
+          <div class="tcard-avatar-wrap">
+          <div class="tcard-stars">★★★★★</div>
+          <p class="tcard-text">"We switched our GST filing to Tax Finnacle last year. Zero errors, always on time, and they handle all our notices too. Best decision for our business."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:var(--grad-warm)">PS</div>
+            <div><b>Priya Shah</b><small>Business Owner, Mumbai</small></div>
+          </div>
+          </div>
+        </div>
+        <div class="tcard rev" style="--d:.2s">
+          <div class="tcard-stars">★★★★★</div>
+          <p class="tcard-text">"Got my Private Limited company registered within 7 days. Their team guided me through every step. Highly professional and affordable."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:var(--grad-neon);color:#000">AK</div>
+            <div><b>Arjun Kumar</b><small>Startup Founder, Hyderabad</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FAQ ══════════ -->
+  <section class="section" style="background:var(--bg2)">
+    <div class="container">
+      <div class="sec-hd rev">
+        <div class="eyebrow">Got Questions?</div>
+        <h2 class="h2">Frequently <span class="g-text">Asked</span></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item rev" style="--d:0s">
+          <div class="faq-q"><span>Who needs to file an Income Tax Return (ITR)?</span><span class="faq-icon">+</span></div>
+          <div class="faq-a"><p>Any individual with gross income exceeding ₹2.5 lakhs (₹3 lakhs for seniors) must file an ITR. Businesses, freelancers, professionals, and even those with foreign income or assets must also file. Filing is also recommended for those with no tax liability to carry forward losses or for loan applications.</p></div>
+        </div>
+        <div class="faq-item rev" style="--d:.06s">
+          <div class="faq-q"><span>What documents are needed for ITR filing?</span><span class="faq-icon">+</span></div>
+          <div class="faq-a"><p>Typically: PAN card, Aadhaar, Form 16 (for salaried), bank statements, investment proofs (80C, 80D), Form 26AS, AIS statement, and details of any other income. Our team will give you a tailored checklist once you get in touch.</p></div>
+        </div>
+        <div class="faq-item rev" style="--d:.12s">
+          <div class="faq-q"><span>What is the due date for GST return filing?</span><span class="faq-icon">+</span></div>
+          <div class="faq-a"><p>GSTR-1 is due on the 11th of the following month (monthly filers). GSTR-3B is due on the 20th for monthly filers. Quarterly filers under QRMP have different deadlines. We track all deadlines for our clients and ensure zero late fees.</p></div>
+        </div>
+        <div class="faq-item rev" style="--d:.18s">
+          <div class="faq-q"><span>How long does company registration take?</span><span class="faq-icon">+</span></div>
+          <div class="faq-a"><p>Private Limited company registration typically takes 7–15 working days depending on MCA processing. LLP and OPC follow similar timelines. We handle the entire process — DIN, DSC, name approval, MoA/AoA, and Certificate of Incorporation.</p></div>
+        </div>
+        <div class="faq-item rev" style="--d:.24s">
+          <div class="faq-q"><span>Can Tax Finnacle handle income tax notices?</span><span class="faq-icon">+</span></div>
+          <div class="faq-a"><p>Absolutely. We assist with responding to notices under Sections 143(1), 139(9), 148, and scrutiny assessments. Don't ignore a tax notice — contact us immediately and our team will handle it professionally.</p></div>
+        </div>
+        <div class="faq-item rev" style="--d:.30s">
+          <div class="faq-q"><span>What are your fees?</span><span class="faq-icon">+</span></div>
+          <div class="faq-a"><p>Our fees are transparent and affordable — starting from as low as ₹499 for basic ITR filing. Pricing depends on the complexity of returns and services required. Contact us for a free consultation and no-obligation quote.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CTA ══════════ -->
+  <section class="cta-band">
+    <div class="cta-grid-overlay"></div>
+    <div class="cta-orb1"></div>
+    <div class="cta-orb2"></div>
+    <div class="container cta-inner rev">
+      <div class="cta-badge"><div class="badge"><i class="badge-pulse"></i> Deadline Approaching?</div></div>
+      <h2 class="h2">File Your Taxes Today.<br><span class="g-text">Zero Stress. Zero Penalties.</span></h2>
+      <p class="body-p">Join 500+ taxpayers and businesses who trust Tax Finnacle for accurate, on-time compliance every year.</p>
+      <div class="cta-btn-row">
+        <a href="contact.html" class="btn-primary">Get Started Now ✦</a>
+        <a href="services.html" class="btn-ghost">Explore Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="logo-mark">T</div>
+          <div>
+            <div class="logo-name">Tax Finnacle</div>
+            <div class="logo-tag">Financial Experts</div>
+          </div>
+        </div>
+        <p>Your trusted partner for ITR, GST, company registration, and all tax compliance needs across India.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <a href="services.html">ITR Filing</a>
+        <a href="services.html">GST Services</a>
+        <a href="services.html">Company Registration</a>
+        <a href="services.html">TDS &amp; Tax Planning</a>
+      </div>
+      <div class="footer-col">
+        <h5>Connect</h5>
+        <a href="https://wa.me/919999999999" target="_blank" rel="noopener" class="whatsapp-link">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Us
+        </a>
+        <a href="tel:+919999999999">+91 99999 99999</a>
+      </div>
+    </div>
+    <div class="footer-bar container">
+      <p>© 2025 Tax Finnacle. All rights reserved. | Trusted Tax & Financial Services across India.</p>
+      <div class="footer-bar-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
