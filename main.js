@@ -1,5 +1,5 @@
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxBCCCPuWJntZhpHFdCMmpgjXnUD4VMubWGcqLe9Dg5TmiMu2FZN6DdWotjv7P87epWlw/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxhkkKPRp9E5FmS-4HDSjjpGW93S_Z4zPt-CR4z4gUVKhjZ9JU33tzy9o7MWFMelCTV/exec';
 
 function loadScript(src) {
   return new Promise(resolve => {
