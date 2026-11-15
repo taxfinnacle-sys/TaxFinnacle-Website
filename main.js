@@ -1,9 +1,5 @@
-/* ═══════════════════════════════════════════════════
-   ARUNACHALA DIGI WORLD — MAIN.JS v3
-   Fixed hero • 3D canvas • Pro GSAP animations
-   ═══════════════════════════════════════════════════ */
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzs5eBSEIF57jjIV-HpXHPEaByYqciNQuVpziso25zlzI0gOjHJ1hFQjF_2jxElfwOm/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxBCCCPuWJntZhpHFdCMmpgjXnUD4VMubWGcqLe9Dg5TmiMu2FZN6DdWotjv7P87epWlw/exec';
 
 function loadScript(src) {
   return new Promise(resolve => {
